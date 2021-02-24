@@ -14,6 +14,8 @@
 - 2. obj.names
 - 3. Create a folder named as (obj)
 
+## Create a Folder called backup
+
 # Run generate_train.py (see the result in the data folder named train.txt
 
 # Go to cfg folder and open yolov3-custom.cfg file and modify this:
@@ -34,4 +36,16 @@
 
 - STEP 5 : change random = 0 
 -                           for memmory error solve
+
+## Download Pretrained Convolutional Weights:
+-                                            wget https://pjreddie.com/media/files/darknet53.conv.74
+
+## Train The model:
+
+-                  ./darknet detector train data/obj.data cfg/yolov3-custom.cfg darknet53.conv.74
+
+
+Test The Model:
+
+-                  ./darknet detector test data/obj.data cfg/yolov3-custom.cfg backup/yolov3-custom_last.weights data/pln3.jpg
 
