@@ -25,6 +25,13 @@
 - STEP 2 : steps=
 -                80% of max_batches and 90% of max_batches
 
-- STEP 3 : change all 3 yolo classes(that how many classes you have)
+- STEP 3 : change all 3 yolo classes
 
+- STEP 4 : change convolutional layer=
+-                                     filter = (classes + 5)*3
+-                                            = (3 + 5)*3 
+-                                            = 24  
+
+- STEP 5 : change random = 0 
+-                           for memmory error solve
 
