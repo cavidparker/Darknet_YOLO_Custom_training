@@ -21,3 +21,6 @@
 -                      2 class = 2000*2 = 4000
 -                      3 class = 2000*3 = 6000
 
+- STEP 2 : steps=
+-                80% of max_batches and 90% of max_batches
+
