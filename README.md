@@ -49,6 +49,12 @@
 
 -                  ./darknet detector test data/obj.data cfg/yolov3-custom.cfg backup/yolov3-custom_last.weights data/pln3.jpg
 
+## Re-train:
+
+-                  ./darknet detector train data/obj.data cfg/yolov3-custom.cfg yolov3-custom_1000.weights  
+
 
 ## Ref Link : https://pjreddie.com/darknet/yolo/
+
+
 
