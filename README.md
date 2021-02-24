@@ -45,7 +45,7 @@
 -                  ./darknet detector train data/obj.data cfg/yolov3-custom.cfg darknet53.conv.74
 
 
-Test The Model:
+## Test The Model:
 
 -                  ./darknet detector test data/obj.data cfg/yolov3-custom.cfg backup/yolov3-custom_last.weights data/pln3.jpg
 
