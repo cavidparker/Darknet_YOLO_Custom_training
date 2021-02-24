@@ -49,3 +49,6 @@
 
 -                  ./darknet detector test data/obj.data cfg/yolov3-custom.cfg backup/yolov3-custom_last.weights data/pln3.jpg
 
+
+## Ref Link : https://pjreddie.com/darknet/yolo/
+
