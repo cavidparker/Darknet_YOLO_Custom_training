@@ -1,0 +1,8 @@
+darknet53.conv.74
+yolov3-tiny.weights
+yolov3.weights
+data/obj
+data/train.txt
+.png
+.jpg
+backup
