@@ -52,6 +52,11 @@
 
 -                  ./darknet detector test data/obj.data cfg/yolov3-custom.cfg backup/yolov3-custom_last.weights data/pln3.jpg
 
+
+## Test Video:
+-                ./darknet detector demo data/obj.data cfg/yolov3-custom.cfg backup/yolov3-custom_last.weights
+
+
 ## Re-train:
 
 -                  ./darknet detector train data/obj.data cfg/yolov3-custom.cfg yolov3-custom_1000.weights  
