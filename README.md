@@ -46,6 +46,9 @@
 
 
 ## Test The Model:
+-                  Before testing change the yolov3-custom.cfg 
+-                  1. batch = 1
+-                  2. subdivisions = 1
 
 -                  ./darknet detector test data/obj.data cfg/yolov3-custom.cfg backup/yolov3-custom_last.weights data/pln3.jpg
 
